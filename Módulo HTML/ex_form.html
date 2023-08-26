@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Exercício Form</title>
+</head>
+<body>
+    <h3>Cadastro da Liga dos Astronautas</h3>
+    <form>
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+        </div>
+        <br>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="senha"> - Password:</label>
+            <input type="password" id="senha" name="senha" required><br><br>
+        </div>
+        <br>
+        <div>
+            <label for="nasc">Data de Nascimento:</label>
+            <input type="date" id="nasc" name="nasc" required>
+            <label for="foto"> - Foto:</label>
+            <input type="file" id="foto" name="foto" required>
+        </div>
+        <br>
+        <div>
+            <label for="local">Nacionalidade:</label>
+            <select name="local" id="local">
+                <option value="russa">Russa</option>
+                <option value="americana">Americana</option>
+                <option value="brasileira">Brasileira</option>
+            </select>
+
+            Genero:
+            <label> - Gênero:</label>
+            <label for="f">F</label>
+            <input type="radio" id="f" name="genero" required>
+            <label for="m">M</label>
+            <input type="radio" id="m" name="genero" required><br><br>
+        </div>
+        <br>
+        <div>
+            Suas principais qualidades: <br>
+            <label>Inteligência</label>
+            <input type="checkbox"> |
+            <label>Resiliência</label>
+            <input type="checkbox"> |
+            <label>Preparo Físico</label>
+            <input type="checkbox"> |
+            <label>Educação</label>
+            <input type="checkbox"> |
+        </div>
+        <br>
+        <div>
+            <textarea name="description" cols="30" rows="10" placeholder="Por que você gostaria de ser astronauta?"></textarea>
+        </div>
+       <br>
+       <div>
+            <input type="submit" value="Enviar">
+       </div>
+    </form>
+</body>
+</html>

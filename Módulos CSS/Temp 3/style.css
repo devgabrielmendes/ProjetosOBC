@@ -1,0 +1,14 @@
+p {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 3;
+}
+
+h1 {
+    font-family: 'Geostar', cursive;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 40px;
+    border: 1px black dashed;
+}

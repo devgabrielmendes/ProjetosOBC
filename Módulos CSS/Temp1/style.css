@@ -1,0 +1,28 @@
+h1 {
+    color: blueviolet;
+    font-size: 50px;
+    border: 2px dashed yellow;
+}
+
+li {
+    color: aquamarine;
+}
+
+body {
+    background-image: url('https://wd.imgix.net/image/kheDArv5csY6rvQUJDbWRscckLr1/t98X06XyMtNI4rTmXyfZ.jpg?auto=format&w=964');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.orange-text {
+    color: orange;
+}
+
+.big-text {
+    font-size: 35px;
+}
+
+#text-sixty {
+    color: aquamarine;
+    font-size: 20px;
+}

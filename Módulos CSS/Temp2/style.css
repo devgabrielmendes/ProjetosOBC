@@ -1,0 +1,8 @@
+/*
+
+ * Geral
+"Cabeçalho" - "texto" - Afeta descendencia
+"Cabeçalho" > "texto" - Afeta FILHOS
+"Cabeçalho" + "texto" - Afeta o elemento especificado que vem logo após o primeiro
+a[href='/teste'] - afeta todos que tem href teste
+li:nth-of-type(2/odd{impar}) - afeta o segundo item
